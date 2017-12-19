@@ -215,7 +215,8 @@ app.on('ready', function() {
     mainWindow = createWindow('main', {
         width: 1000,
         height: 600,
-        icon: iconPath
+        icon: iconPath,
+        titleBarStyle: 'hiddenInset',
     });
 
     mainWindow.loadURL('file://' + __dirname + '/app.html');

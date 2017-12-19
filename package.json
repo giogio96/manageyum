@@ -1,7 +1,7 @@
 {
   "build": {
-    "appId": "com.revmakx.manageyum",
-    "app-category-type": "your.app.category.type",
+    "appId": "com.Giovanni-Ganzerli.manageyum",
+    "category": "public.app-category.social-networking",
     "win": {
       "target": [
         "nsis",

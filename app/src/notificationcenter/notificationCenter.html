@@ -1,8 +1,5 @@
 <div class="notifications_cont">
     <div class="list-group notification_list">
-        <div class="empty_state my_modal_title overview_heading">
-            <h3 style="margin: 0">Overview</h3>
-        </div>
         <ul style="list-style-type: none;" class="overview_list">
             <div class="panel panel-default" ng-repeat="service in $ctrl.notifications">
                 <div class="panel-heading notifications_header">
@@ -30,7 +27,7 @@
                 </div>
             </div>
             <div class="empty_state text-center overview_empty_state" ng-if="$ctrl.notifications.length===0">
-                <span class="empty_state_text">No New Notifications </span>
+                <span class="empty_state_text">No New Notifications <br> 👻 🤩 🤨 🤯 🤪</span>
             </div>
         </ul>
     </div>

@@ -34,12 +34,12 @@
     </uib-tab>
 </uib-tabset>
 <div class="nav-settings ">
-    <button type="button " class="btn btn-default glyphicon glyphicon-chevron-left" style="width: 33px;" uib-tooltip="Back" tooltip-placement="bottom" ng-click="$ctrl.backwardHistory()"></button>
-    <button type="button " class="btn btn-default glyphicon glyphicon-chevron-right" style="width: 33px;" uib-tooltip="Forward" tooltip-placement="bottom" ng-click="$ctrl.forwardHistory()"></button>
-    <button type="button " class="btn btn-default " style="width: 33px;" uib-tooltip="Notifications {{$ctrl.globalNotification?'on':'off'}}" tooltip-placement="bottom" ng-click="$ctrl.toggleNotification()"><img src="./images/notification_on.svg" ng-if="$ctrl.globalNotification ===true" /><img src="./images/notification_off.svg" ng-if="$ctrl.globalNotification ===false" /></button>
-    <button type="button " class="btn btn-default " ng-click="$ctrl.setHomeNavIndex(2)" uib-tooltip="Settings" tooltip-placement="bottom"><img src="./images/cog.svg" /></button>
-    <button type="button " class="btn btn-default " ng-click="$ctrl.setAddServices(true)" uib-tooltip="New Service" tooltip-placement="bottom"><img src="./images/add.svg" /></button>
-    <button type="button " style="width: 42px;" class="btn btn-default " ng-click="$ctrl.showShareModal(true)" uib-tooltip="Share" tooltip-placement="bottom"><img src="./images/heart.svg" /></button>
+    <button type="button " class="btn btn-default" style="width: 33px;" uib-tooltip="Back" tooltip-placement="bottom" ng-click="$ctrl.backwardHistory()">⬅️</button>
+    <button type="button " class="btn btn-default" style="width: 33px;" uib-tooltip="Forward" tooltip-placement="bottom" ng-click="$ctrl.forwardHistory()">➡️</button>
+    <button type="button " class="btn btn-default " style="width: 33px;" uib-tooltip="Notifications {{$ctrl.globalNotification?'on':'off'}}" tooltip-placement="bottom" ng-click="$ctrl.toggleNotification()"><span ng-if="$ctrl.globalNotification ===true">🔔</span><span ng-if="$ctrl.globalNotification ===false">🔕</span></button>
+    <button type="button " class="btn btn-default " ng-click="$ctrl.setHomeNavIndex(2)" uib-tooltip="Settings" tooltip-placement="bottom">⚙️</button>
+    <button type="button " class="btn btn-default " ng-click="$ctrl.setAddServices(true)" uib-tooltip="New Service" tooltip-placement="bottom">🆕</button>
+    <button type="button " style="width: 42px;" class="btn btn-default " ng-click="$ctrl.showShareModal(true)" uib-tooltip="Share" tooltip-placement="bottom">❤️</button>
 </div>
 <div class="main_loading">
     <div class="load_cont">
