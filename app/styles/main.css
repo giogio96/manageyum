@@ -118,7 +118,7 @@ a, button, .btn {
     /*height: 95vh;*/
     width: 100%;
     flex: 1;
-    padding-top: 40px;
+    /*padding-top: 40px;*/
     /*height: calc(100% - 42px);*/
 }
 
@@ -571,7 +571,7 @@ img {
 webview {
     display: flex;
     /*width:640px;*/
-    height: calc(100% - 41px);
+    height: 100vh !important;
     width: 100%;
     position: absolute;
     /*visibility: visible;*/
